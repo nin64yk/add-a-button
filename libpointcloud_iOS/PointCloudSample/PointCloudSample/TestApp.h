@@ -18,8 +18,8 @@ private:
     
     enum ButtonType {
         SLAM,
-        SLAM_FROM_IMAGE,
-        IMAGE,
+//        SLAM_FROM_IMAGE,
+//        IMAGE,
     };
     
     ButtonType selected_button;
@@ -27,8 +27,14 @@ private:
 	void setup_cuboid();
 	double init_fadeout_time;
 //	void draw_ui();
-	
-	
+    //* touch point
+	double tp_x;
+    double tp_y;
+    
+	pointcloud_vector_3 near_position;
+    
+    // Switch to box projection
+	virtual void switch_to_box();
 	// UI texture
 //	GLuint ui_texture;
 	

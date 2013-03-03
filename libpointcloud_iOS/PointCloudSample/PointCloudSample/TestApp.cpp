@@ -193,10 +193,10 @@ void TestApp::render_content(double time_since_last_frame) {
     pointcloud_state state = pointcloud_get_state();
 	
 	// Draw the content if we have SLAM or image tracking
-	if (state == POINTCLOUD_TRACKING_SLAM_MAP || state == POINTCLOUD_TRACKING_IMAGES) {
+	if (state == POINTCLOUD_TRACKING_SLAM_MAP) {
 
-		switch_to_camera();
-/*
+        switch_to_box();
+
         // Set light position
         static const float light_position[4] = {1, 6, 0.5, 1.0f};
         glLightfv(GL_LIGHT0, GL_POSITION, light_position);
@@ -218,153 +218,207 @@ void TestApp::render_content(double time_since_last_frame) {
 		glDisableClientState(GL_NORMAL_ARRAY);
 		glDisableClientState(GL_VERTEX_ARRAY);
 		
-		glShadeModel(GL_SMOOTH);
+        glShadeModel(GL_SMOOTH);
 		glDisable(GL_COLOR_MATERIAL);
 		glColor4f(1, 1, 1, 1);
-*/ 
-        pointcloud_point_cloud* pc;
-        pc = pointcloud_get_points();
-        
-        //*Point distance variable
-        
-        //*current point's distance
-        float pd = 0;
-        
-        //*previous point's distance
-        float pd_p = 0;
-        int pd_num = 0;
         
 
-        
-        pointcloud_vector_3 * pv3 = new pointcloud_vector_3[pc->size];
-        pointcloud_vector_2 * pv2 = new pointcloud_vector_2[pc->size];
-
-        
-        printf("Points size : %d\n\n", pc->size);
-        
-        
-        for (int i=0; i<pc->size; i++) {
-            //* map to camera, camera to video.
-            pv3[i] = pointcloud_map_to_camera(pc->points[i].x, pc->points[i].y, pc->points[i].z);
-            pv2[i] = pointcloud_camera_to_video(pv3[i].x, pv3[i].y, pv3[i].z);
-            
-            
-//            printf("\n%d Map    x = %f, y = %f, z = %f\n", i+1, pc->points[i].x, pc->points[i].y, pc->points[i].z);
-//            printf("%d Camera x = %f, y = %f, z = %f\n", i+1, pv3[i].x, pv3[i].y, pv3[i].z);
-//            printf("%d Video  x = %f, y = %f\n", i+1, pv2[i].x, pv2[i].y);
-            
-        
-            //*computing the nearest distance.
-            if (0 < pv2[i].x <= 768 || 0 < pv2[i].y <= 1024){
-                
-                pd = sqrt(powf(pv2[i].x-(float)tp_x, 2) + powf(pv2[i].y-(float)tp_y, 2));
-                printf("\nTwo point's distance: %f", pd);
-                
-                //*First frame
-                if (pd_p == 0) pd_p = pd;
-                else if(pd < pd_p) {
-                    pd_p = pd;
-                    pd_num = i;             
-                        
-                } else {
-                
-                    printf("\n%d Point didn't compute the distance.", i+1);
-                    continue;
-                }
-            }
-        }
-        
-        pc_id = pd_num;
-        
-        //*touched point
-        printf("\nNearest distance : %d th, %d Pixel, vX = %d, vY = %d, tX = %d, tY =%d \n", pd_num+1, (int)pd_p, (int)pv2[pd_num].x, (int)pv2[pd_num].y, (int)tp_x, (int)tp_y);
-      
-        
-        delete[] pv3;
-        delete[] pv2;
-        
-        //*3d map coordinate -> video coordinate
-//        printf("\nVideo coordinate: ");
-//        pointcloud_vector_2 point_video_coor;
-//        point_video_coor = pointcloud_camera_to_video(point_coor->points->x, point_coor->points->y, point_coor->points->z);
-//        printf("\nx = %f, ", point_coor->points->x);
-//        printf("y = %f, ", point_coor->points->y);
-        
-        
-        //*context
-//        pointcloud_context point_con;
-//        point_con = pointcloud_get_context();
-//        printf("video_width : %d \n", point_con.video_width);
-//        printf("video_height: %d \n", point_con.video_height);
-//        printf("viewport_width : %d \n", point_con.viewport_width);
-//        printf("viewport_height : %d \n", point_con.viewport_height);
-//        printf("video_crop_x : %d \n", point_con.video_crop_x);
-//        printf("video_crop_y : %d \n\n", point_con.video_crop_y);
-
-        //*Camera pose vector
-//        pointcloud_matrix_4x4 camera_pose;
-//        camera_pose = pointcloud_get_camera_pose();
-//        printf("*Camera pose vector\n");
-//        for (int i=1; i<=16; i++) {
-//            if (i%4==0) {
-//                printf("%f \n",camera_pose.data[i-1]);
-//            }else {
-//             printf("%f, ",camera_pose.data[i-1]);
+//
+//        pointcloud_point_cloud* pc;
+//        pc = pointcloud_get_points();
+//        
+//        //*Point distance variable
+//        
+//        //*current point's distance
+//        float pd = 0;
+//        
+//        //*previous point's distance
+//        float pd_p = 0;
+//        int pd_num = 0;
+//        
+//
+//        
+//        pointcloud_vector_3 * pv3 = new pointcloud_vector_3[pc->size];
+//        pointcloud_vector_2 * pv2 = new pointcloud_vector_2[pc->size];
+//
+//        
+////        printf("Points size : %d\n\n", pc->size);
+//        
+//        
+//        for (int i=0; i<pc->size; i++) {
+//            //* map to camera, camera to video.
+//            pv3[i] = pointcloud_map_to_camera(pc->points[i].x, pc->points[i].y, pc->points[i].z);
+//            pv2[i] = pointcloud_camera_to_video(pv3[i].x, pv3[i].y, pv3[i].z);
+//            
+//            
+////            printf("\n%d Map    x = %f, y = %f, z = %f\n", i+1, pc->points[i].x, pc->points[i].y, pc->points[i].z);
+////            printf("%d Camera x = %f, y = %f, z = %f\n", i+1, pv3[i].x, pv3[i].y, pv3[i].z);
+////            printf("%d Video  x = %f, y = %f\n", i+1, pv2[i].x, pv2[i].y);
+//            
+//        
+//            //*computing the nearest distance.
+//            if ((0 < pv2[i].x || pv2[i].x <= 768 )&& (0 < pv2[i].y || pv2[i].y <= 1024)){
+//                
+//                pd = sqrt(powf(pv2[i].x-(float)tp_x, 2) + powf(pv2[i].y-(float)tp_y, 2));
+////                printf("\nTwo point's distance: %f", pd);
+//                
+//                //*First frame
+//                if (pd_p == 0) pd_p = pd;
+//                else if(pd < pd_p) {
+//                    pd_p = pd;
+//                    pd_num = i;             
+//                        
+//                }
 //            }
 //        }
-        
-        //*Camera matrix
-//        pointcloud_matrix_4x4 camera_matrix;
-//        camera_matrix = pointcloud_get_camera_matrix();
-//        printf("*Camera matrix\n");
-//        for (int i=1; i<=16; i++) {
-//            if (i%4==0) {
-//                printf("%f \n",camera_matrix.data[i-1]);
-//            }else {
-//                printf("%f, ",camera_matrix.data[i-1]);
-//            }
-//        }
-        
+//        
+//        pc_id = pd_num;
+//        
+//        //*touched point
+//        printf("\nNearest distance : %d th, %d Pixel, vX = %d, vY = %d, tX = %d, tY =%d \n", pd_num+1, (int)pd_p, (int)pv2[pd_num].x, (int)pv2[pd_num].y, (int)tp_x, (int)tp_y);
+//      
+//        
+//        delete[] pv3;
+//        delete[] pv2;
+//        
+
     
 	// Draw the UI on top of the content
-	switch_to_ortho();
+//	switch_to_ortho();
 //	draw_ui();
     }
 }
 
-    bool TestApp::on_touch_started(double x, double y) {
+
+void TestApp::switch_to_box() {
+	enable_lighting();
 	
-	pointcloud_state state = pointcloud_get_state();
+	glShadeModel(GL_SMOOTH);
+	
+	glDisable(GL_BLEND);
+	glDisable(GL_TEXTURE_2D);
+	
+	glEnable(GL_DEPTH_TEST);
+	
+	// Set up projection matrix
+	glMatrixMode(GL_PROJECTION);
+	glLoadMatrixf(projection_matrix.data);
+    
+	// Set up camera matrix
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+    
+        glTranslatef(near_position.x, near_position.y, near_position.z);
+    
+    GLfloat m[16];
+    glGetFloatv(GL_MODELVIEW_MATRIX, m);
+    glLoadIdentity();
+    glLoadMatrixf(camera_matrix.data);
+    glMultMatrixf(m);
+}
+
+
+
+bool TestApp::on_touch_started(double x, double y) {
+	
 	int W = context.viewport_width;
 	int H = context.viewport_height;
     
 	tp_x = x;
     tp_y = y;
     
-    //printf("%lf, %lf", x, y);
+    printf("%lf, %lf", x, y);
     
         
     //*Only use slam
     
-    pointcloud_reset();
+//    pointcloud_reset();
 
     //* Deactivate image recognition
     pointcloud_deactivate_image_target("image_1");
     pointcloud_deactivate_image_target("image_2");
 
 
-	if (state != POINTCLOUD_LOOKING_FOR_IMAGES && state != POINTCLOUD_TRACKING_IMAGES) {
-		if (y > H-112 && x < W/3) {
-			printf("Start initialization\n");
-			pointcloud_start_slam();
-		} else if (y > H-112 && x >= W/3 && x < W*2/3){
-			printf("Resetting\n");
 
-            //* DO NOT RESTART
-			pointcloud_reset();
-		}
-		return true;
-	}
+    if (y > H-112 && x < W/3) {
+        pointcloud_reset();
+        //* Deactivate image recognition
+        pointcloud_deactivate_image_target("image_1");
+        pointcloud_deactivate_image_target("image_2");
+        
+        printf("Start initialization\n");
+        pointcloud_start_slam();
+    } else if (y > H-112 && (x >= W/3 && x < W*2/3)){
+        printf("Resetting\n");
+
+        //* DO NOT RESTART
+        pointcloud_reset();
+    }
+        pointcloud_state state = pointcloud_get_state();
+    
+	if (state == POINTCLOUD_TRACKING_SLAM_MAP) {  
+    pointcloud_point_cloud* pc;
+    pc = pointcloud_get_points();
+    
+    //*Point distance variable
+    
+    //*current point's distance
+    float pd = 0;
+    
+    //*previous point's distance
+    float pd_p = 0;
+    int pd_num = 0;
+    
+    
+    
+    pointcloud_vector_3 * pv3 = new pointcloud_vector_3[pc->size];
+    pointcloud_vector_2 * pv2 = new pointcloud_vector_2[pc->size];
+    pointcloud_vector_2 * pv2_v = new pointcloud_vector_2[pc->size];
+
+    
+    //        printf("Points size : %d\n\n", pc->size);
+    
+    
+    for (int i=0; i<pc->size; i++) {
+        //* map to camera, camera to video.
+        pv3[i] = pointcloud_map_to_camera(pc->points[i].x, pc->points[i].y, pc->points[i].z);
+        pv2[i] = pointcloud_camera_to_video(pv3[i].x, pv3[i].y, pv3[i].z);
+        pv2_v[i] = pointcloud_video_to_viewport(pv2[i].x, pv2[i].y);
+        
+        //            printf("\n%d Map    x = %f, y = %f, z = %f\n", i+1, pc->points[i].x, pc->points[i].y, pc->points[i].z);
+        //            printf("%d Camera x = %f, y = %f, z = %f\n", i+1, pv3[i].x, pv3[i].y, pv3[i].z);
+        //            printf("%d Video  x = %f, y = %f\n", i+1, pv2[i].x, pv2[i].y);
+        
+        
+        //*computing the nearest distance.
+//        if ((0 < pv2[i].x || pv2[i].x <= 768 )&& (0 < pv2[i].y || pv2[i].y <= 1024)){
+            
+            pd = sqrt((pv2_v[i].x-(float)tp_x)*(pv2_v[i].x-(float)tp_x) + (pv2_v[i].y-(float)tp_y)*(pv2_v[i].y-(float)tp_y));
+            //                printf("\nTwo point's distance: %f", pd);
+            
+            //*First frame
+            if (pd_p == 0) pd_p = pd;
+            else if(pd < pd_p) {
+                pd_p = pd;
+                pd_num = i;
+                
+//            }
+        }
+    }
+        
+    near_position.x = pc->points[pd_num].x;
+    near_position.y = pc->points[pd_num].y;
+    near_position.z = pc->points[pd_num].z;
+    
+        
+    //*touched point
+    printf("\nNearest distance : %d th, %d Pixel, vX = %d, vY = %d, tX = %d, tY =%d \n", pd_num+1, (int)pd_p, (int)pv2_v[pd_num].x, (int)pv2_v[pd_num].y, (int)tp_x, (int)tp_y);
+    
+    
+    delete[] pv3;
+    delete[] pv2;
+    
+    }
     
 //	if (y > H-112) {
 //		if (x < W/3) {

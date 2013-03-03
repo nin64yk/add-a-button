@@ -1,0 +1,871 @@
+TPointCloudSample
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Info.plist PointCloudSample/PointCloudSample-Info.plist
+cProcessPCH++ /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample normal armv7
+cGenerateDSYMFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample
+cCopyStringsFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/en.lproj/InfoPlist.strings PointCloudSample/en.lproj/InfoPlist.strings
+cCpResource Resources/image_target_1.model DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.model
+cCpResource Resources/image_target_2.model DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png Resources/pointcloud-logo.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png Resources/trackpoint.png
+cCpResource Resources/image_target_1.jpg DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg
+cCpResource Resources/image_target_2.jpg DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpg
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png Resources/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png Resources/Default-Landscape~ipad.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png Resources/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png Resources/Default-Portrait~ipad.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png Resources/Default.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png Resources/Default@2x.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png Resources/Icon-iPad.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png Resources/Icon-iPad@2x.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png Resources/Icon.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png Resources/Icon@2x.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png Resources/ui.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png Resources/Default-568h@2x.png
+cCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png Resources/trackpoint_red.png
+cProcessProductPackaging "/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision
+cTouch /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent
+cCodeSign /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050F4B1AE0000000000000094
+t1358213550
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050F4B1AE0000000000000096
+t1358213550
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050F4B1B1000000000036C800
+t1358213553
+s3590144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000050F4B1AF00000000000064F0
+t1358213551
+s25840
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050F4B1B20000000000322740
+t1358213554
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000050F4B1B300000000001692A0
+t1358213555
+s1479328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c0000000050F4B1B400000000001D3F40
+t1358213556
+s1916736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000050F4B1B40000000000041310
+t1358213556
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050F4B1B40000000000629C80
+t1358213556
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000050F4B1B70000000000024190
+t1358213559
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050F4B1B80000000000359720
+t1358213560
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050F4B1BC00000000011BA850
+t1358213564
+s18589776
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.o
+t1362024743
+s90116
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.o
+t1362024745
+s83124
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.o
+t1362212260
+s146456
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.o
+t1362212260
+s23152
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudSample.LinkFileList
+c00000000512ED92200000000000005AF
+t1362024738
+s1455
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.o
+t1362214780
+s35764
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.o
+t1362024744
+s31564
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.o
+t1362024743
+s3260
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent
+t1362024748
+s430
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.pth
+t1362024738
+s104548
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.pth
+t1362024739
+s5327768
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.pth
+t1362024739
+s4761412
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+t1362214781
+s952
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM
+t1362214780
+s102
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png
+t1362024748
+s32439
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png
+t1362024747
+s114038
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png
+t1362024747
+s42058
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png
+t1362024748
+s112822
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png
+t1362024747
+s42118
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png
+t1362024747
+s16205
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png
+t1362024748
+s32965
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png
+t1362024748
+s11992
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png
+t1362024748
+s28603
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png
+t1362024748
+s8916
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png
+t1362024748
+s20208
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Info.plist
+t1362024738
+s1474
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PkgInfo
+t1362024738
+s8
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample
+t1362214781
+s1540064
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist
+t1362024738
+s150
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision
+t1362024748
+s13313
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/en.lproj/InfoPlist.strings
+t1362024746
+s42
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg
+t1362024746
+s117502
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.model
+t1362024746
+s61967
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpg
+t1362024746
+s63171
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model
+t1362024746
+s54746
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png
+t1362024747
+s58195
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png
+t1362024746
+s2964
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png
+t1362024748
+s418
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png
+t1362024748
+s31469
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/../../PointCloud.h
+c0000000050B7BA080000000000002FBD
+t1354217992
+s12221
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/../../libpointcloud.a
+c0000000050BF126000000000004F0D48
+t1354699360
+s5180744
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.h
+c000000005050C7F200000000000001C5
+t1347471346
+s453
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm
+c0000000050B8F6200000000000000437
+t1354298912
+s1079
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.h
+c000000005050C7F2000000000000036A
+t1347471346
+s874
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m
+c000000005050C7F20000000000000DF9
+t1347471346
+s3577
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.h
+c000000005082633000000000000007AC
+t1350722352
+s1964
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm
+c00000000512338E9000000000000369B
+t1361262825
+s13979
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp
+c000000005131B5A3000000000000221A
+t1362212259
+s8730
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.h
+c000000005131B5A30000000000000A00
+t1362212259
+s2560
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch
+c000000005050C7F20000000000000149
+t1347471346
+s329
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp
+c000000005131C7FF0000000000003A0B
+t1362216959
+s14859
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.h
+c000000005131B5A30000000000000504
+t1362212259
+s1284
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp
+c000000005050C7F20000000000000BCF
+t1347471346
+s3023
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.h
+c000000005050C7F200000000000002D5
+t1347471346
+s725
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/en.lproj/InfoPlist.strings
+c000000005050C7F2000000000000002D
+t1347471346
+s45
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm
+c0000000050B0974A0000000000000132
+t1353750346
+s306
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-568h@2x.png
+c0000000050B5F3A6000000000000B8F3
+t1354101670
+s47347
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Landscape@2x~ipad.png
+c000000005050C7F20000000000016D85
+t1347471346
+s93573
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Landscape~ipad.png
+c000000005050C7F20000000000008D2A
+t1347471346
+s36138
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Portrait@2x~ipad.png
+c000000005050C7F20000000000016509
+t1347471346
+s91401
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Portrait~ipad.png
+c000000005050C7F20000000000008B1B
+t1347471346
+s35611
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default.png
+c000000005050C7F200000000000035A6
+t1347471346
+s13734
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default@2x.png
+c000000005050C7F20000000000006F7D
+t1347471346
+s28541
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon-iPad.png
+c000000005050C7F20000000000001FBA
+t1347471346
+s8122
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon-iPad@2x.png
+c000000005050C7F20000000000004B5B
+t1347471346
+s19291
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon.png
+c000000005050C7F200000000000018B0
+t1347471346
+s6320
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon@2x.png
+c000000005050C7F200000000000035EE
+t1347471346
+s13806
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_1.jpg
+c000000005050C7F2000000000001CAFE
+t1347471346
+s117502
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_1.model
+c000000005050C7F2000000000000F20F
+t1347471346
+s61967
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_2.jpg
+c000000005050C7F2000000000000F6C3
+t1347471346
+s63171
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_2.model
+c000000005050C7F2000000000000D5DA
+t1347471346
+s54746
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/pointcloud-logo.png
+c000000005050C7F2000000000000CC94
+t1347471346
+s52372
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/trackpoint.png
+c000000005050C7F20000000000000BEF
+t1347471346
+s3055
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/trackpoint_red.png
+c00000000512DA7A300000000000001E9
+t1361946531
+s489
+
+N/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/ui.png
+c000000005051E5FA000000000000A361
+t1347544570
+s41825
+
+N/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision
+c0000000050C56F220000000000003401
+t1355116322
+s13313
+
+NPointCloudSample/PointCloudSample-Info.plist
+c0000000050BF122E000000000000078D
+t1354699310
+s1933
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm
+r0
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m
+r0
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm
+r0
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp
+r0
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp
+r0
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp
+r0
+
+CBuild AST from /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6133883901e2b641^2fe0893901e2b641^---0#1#0#--18"Check dependencies36"9A267153-2205-4A20-B835-8CBE5EE61EAB-
+
+CCodeSign /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+s383910203.361665
+e383910203.996245
+r1
+xCodeSign
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CodeSign DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app4bb05c3b01e2b641^b30aff3b01e2b641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/0000000000000000^1091"CodeSign DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 18a17338d6acb451582c4ceffdf8bf1c6c2fbc3f --resource-rules=/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist --entitlements /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"1D40DB6F-9CE3-4B64-B268-B1854AF07CDD-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383717543.122173
+e383717544.430433
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm1c7a1fa710dfb641^6b466ea810dfb641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm0000000000000000^4543"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.o PointCloudSample/AppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/AppDelegate.mm -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/AppDelegate.o36"5443D0E8-2619-4FCD-B806-45ECF4B3B758-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383717545.087796
+e383717546.081723
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m9ca716a910dfb641^ffeb14aa10dfb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m0000000000000000^4378"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.o PointCloudSample/GLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/GLView.m -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/GLView.o36"14D1FADB-4686-48DC-8BF8-7693B1988049-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383905059.824145
+e383905060.279904
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm562bd323ede1b641^78d14724ede1b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm0000000000000000^4585"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.o PointCloudSample/HardwareController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/HardwareController.mm -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/HardwareController.o36"E159CF42-A36E-4513-934C-2430C336F062-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383905059.825133
+e383905060.114563
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp7366d323ede1b641^f1621d24ede1b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp0000000000000000^4246"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.o PointCloudSample/PointCloudApplication.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudApplication.cpp -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudApplication.o36"5005D823-4301-4EA0-A17C-F94E29CF91D5-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383910201.596369
+e383910202.333657
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp0ad6983901e2b641^016b553a01e2b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp0000000000000000^4162"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.o PointCloudSample/TestApp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TestApp.cpp -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TestApp.o36"6F388C6B-4C52-4C72-B0A9-57AAD62115E0-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383717544.431745
+e383717545.086740
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp60b16ea810dfb641^b93416a910dfb641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp0000000000000000^4216"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.o PointCloudSample/TextureUtilities.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/TextureUtilities.cpp -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/TextureUtilities.o36"1845A169-775E-460F-A958-0559A3FDD7CB-
+
+CCompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383717543.102393
+e383717544.428566
+r1
+xCompileC
+xDerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.o
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm3c681aa710dfb641^7bda6da810dfb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm0000000000000000^4501"CompileC DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.o PointCloudSample/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -include /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/main.mm -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/main.o36"E04B731D-46BE-43BA-8274-42B6CDBC972A-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png Resources/Default-568h@2x.png
+s383717548.259310
+e383717548.455593
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png
+xResources/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png Resources/Default-568h@2x.png417e42ac10dfb641^20b274ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-568h@2x.png0000000000000000^775"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png" "Resources/Default-568h@2x.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-568h@2x.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-568h@2x.png"36"3C8CE552-91CF-4751-8AC9-0756291ABE66-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png Resources/Default-Landscape@2x~ipad.png
+s383717546.882306
+e383717547.577121
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png
+xResources/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png Resources/Default-Landscape@2x~ipad.pngcafae1aa10dfb641^cbbe93ab10dfb641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Landscape@2x~ipad.png0000000000000000^815"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png" "Resources/Default-Landscape@2x~ipad.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Landscape@2x~ipad.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape@2x~ipad.png"36"4ACDB136-92B0-4916-9CA3-41E08791C648-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png Resources/Default-Landscape~ipad.png
+s383717547.105950
+e383717547.327634
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png
+xResources/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png Resources/Default-Landscape~ipad.png213b1bab10dfb641^8be053ab10dfb641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Landscape~ipad.png0000000000000000^803"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png" "Resources/Default-Landscape~ipad.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Landscape~ipad.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Landscape~ipad.png"36"E71E1207-04FF-4E8B-8A14-8945FE2F5CC1-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png Resources/Default-Portrait@2x~ipad.png
+s383717547.328994
+e383717548.085765
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png
+xResources/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png Resources/Default-Portrait@2x~ipad.png975554ab10dfb641^9a0916ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Portrait@2x~ipad.png0000000000000000^811"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png" "Resources/Default-Portrait@2x~ipad.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Portrait@2x~ipad.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait@2x~ipad.png"36"C2994DEB-9A2E-4C7E-BA20-40F8F7513472-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png Resources/Default-Portrait~ipad.png
+s383717547.578479
+e383717547.808547
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png
+xResources/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png Resources/Default-Portrait~ipad.png333294ab10dfb641^54fdceab10dfb641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Portrait~ipad.png0000000000000000^799"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png" "Resources/Default-Portrait~ipad.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default-Portrait~ipad.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default-Portrait~ipad.png"36"210A4DC6-69D0-45FC-A356-7CC46683971E-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png Resources/Default.png
+s383717547.810059
+e383717547.898102
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png
+xResources/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png Resources/Default.pngd57acfab10dfb641^c6fbe5ab10dfb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default.png0000000000000000^735"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png Resources/Default.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default.png36"96A42356-A913-4273-BE5A-0BC234B0227B-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png Resources/Default@2x.png
+s383717547.899468
+e383717548.053596
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png
+xResources/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png Resources/Default@2x.png205fe6ab10dfb641^41b90dac10dfb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default@2x.png0000000000000000^755"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png" "Resources/Default@2x.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Default@2x.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Default@2x.png"36"095CDBCB-CC69-4191-8673-3E8622C71003-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png Resources/Icon-iPad.png
+s383717548.054946
+e383717548.131837
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png
+xResources/Icon-iPad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png Resources/Icon-iPad.pngd42a0eac10dfb641^3d0b22ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon-iPad.png0000000000000000^743"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png Resources/Icon-iPad.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon-iPad.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad.png36"1E7C0FDF-61D7-41BE-8AED-8083C3D9520F-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png Resources/Icon-iPad@2x.png
+s383717548.087108
+e383717548.199866
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png
+xResources/Icon-iPad@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png Resources/Icon-iPad@2x.pngf96716ac10dfb641^da3b33ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon-iPad@2x.png0000000000000000^763"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png" "Resources/Icon-iPad@2x.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon-iPad@2x.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon-iPad@2x.png"36"9511F878-AEDF-4E97-9410-57A8CE578ACF-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png Resources/Icon.png
+s383717548.151250
+e383717548.218629
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png
+xResources/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png Resources/Icon.pngf5f326ac10dfb641^e20638ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon.png0000000000000000^723"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png Resources/Icon.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon.png36"CB238A5E-C5E9-44A6-BC7F-5853D93338F7-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png Resources/Icon@2x.png
+s383717548.201242
+e383717548.258007
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png Resources/Icon@2x.pnge8a033ac10dfb641^992842ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon@2x.png0000000000000000^743"CopyPNGFile "DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png" "Resources/Icon@2x.png"    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/Icon@2x.png" "/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Icon@2x.png"36"3B66D8A7-0BFA-4A64-B24C-000F4D4DFD3E-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png Resources/pointcloud-logo.png
+s383717546.834521
+e383717547.104631
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png
+xResources/pointcloud-logo.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png Resources/pointcloud-logo.pnga9bcd5aa10dfb641^62db1aab10dfb641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/pointcloud-logo.png0000000000000000^767"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png Resources/pointcloud-logo.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/pointcloud-logo.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/pointcloud-logo.png36"36BA4596-E237-4198-9211-B1C9A4FF2582-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png Resources/trackpoint.png
+s383717546.836320
+e383717546.871411
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png
+xResources/trackpoint.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png Resources/trackpoint.png382fd6aa10dfb641^c615dfaa10dfb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/trackpoint.png0000000000000000^747"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png Resources/trackpoint.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/trackpoint.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint.png36"29433507-560D-4ACB-BBB8-9660B5949D0F-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png Resources/trackpoint_red.png
+s383717548.456954
+e383717548.491023
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png
+xResources/trackpoint_red.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png Resources/trackpoint_red.png6a1575ac10dfb641^8db37dac10dfb641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/trackpoint_red.png0000000000000000^763"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png Resources/trackpoint_red.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/trackpoint_red.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/trackpoint_red.png36"D6F50F04-AE9E-4BCE-9055-81A916FCE80A-
+
+CCopyPNGFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png Resources/ui.png
+s383717548.219943
+e383717548.523872
+r1
+xCopyPNGFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png
+xResources/ui.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png Resources/ui.pnge67538ac10dfb641^371c86ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/ui.png0000000000000000^715"CopyPNGFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png Resources/ui.png    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/ui.png /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ui.png36"969FDB59-A822-4262-8B0B-F29159999F25-
+
+CCopyStringsFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/en.lproj/InfoPlist.strings PointCloudSample/en.lproj/InfoPlist.strings
+s383717546.826444
+e383717546.829540
+r1
+xCopyStringsFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/en.lproj/InfoPlist.strings
+xPointCloudSample/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy PointCloudSample/en.lproj/InfoPlist.strings42afd3aa10dfb641^d05fd4aa10dfb641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/en.lproj/InfoPlist.strings0000000000000000^712"CopyStringsFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/en.lproj/InfoPlist.strings PointCloudSample/en.lproj/InfoPlist.strings    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/en.lproj -- PointCloudSample/en.lproj/InfoPlist.strings36"29DD4CCB-E516-4771-A1C4-904516F83309-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist
+s383717538.337060
+e383717538.352996
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xDerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist6a6956a210dfb641^6a6d5aa210dfb641^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist000000000080d041^866"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"2480122C-3960-4855-AC85-74C27F5B0BD0-
+
+CCpResource Resources/image_target_1.jpg DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg
+s383717546.872791
+e383717546.876298
+r1
+xCpResource
+xResources/image_target_1.jpg
+xDerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg9489dfaa10dfb641^aa64e0aa10dfb641^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg000000000080d041^741"CpResource Resources/image_target_1.jpg DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.jpg    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_1.jpg /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"0F02E222-8907-4696-90DE-3678B68F0BE6-
+
+CCpResource Resources/image_target_1.model DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.model
+s383717546.827136
+e383717546.832292
+r1
+xCpResource
+xResources/image_target_1.model
+xDerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.model
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.modeledd5d3aa10dfb641^a513d5aa10dfb641^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.model000000000080d041^747"CpResource Resources/image_target_1.model DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_1.model    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_1.model /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"F2FCCC0C-7EA1-4436-8903-D3606E621BDF-
+
+CCpResource Resources/image_target_2.jpg DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpg
+s383717546.877820
+e383717546.881017
+r1
+xCpResource
+xResources/image_target_2.jpg
+xDerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpgaed3e0aa10dfb641^809be1aa10dfb641^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpg000000000080d041^741"CpResource Resources/image_target_2.jpg DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.jpg    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_2.jpg /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"50AAF5D9-1662-4A87-A8AD-6E7F752F62BA-
+
+CCpResource Resources/image_target_2.model DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model
+s383717546.831556
+e383717546.834989
+r1
+xCpResource
+xResources/image_target_2.model
+xDerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model87fbd4aa10dfb641^0ccdd5aa10dfb641^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model000000000080d041^747"CpResource Resources/image_target_2.model DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/image_target_2.model    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/Resources/image_target_2.model /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"BED2A2EA-E791-411A-AC03-9C2696A14968-
+
+CGenerateDSYMFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample
+s383910203.191571
+e383910203.287184
+r1
+xGenerateDSYMFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Generating /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYMa12b313b01e2b641^5396493b01e2b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM/0000000000000000^865"GenerateDSYMFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app.dSYM36"44BC4388-D42A-4C35-B732-DF54EF85B08A-
+
+CLd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample normal armv7
+s383910202.341363
+e383910203.183865
+r1
+xLd
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Link /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample5089573a01e2b641^0d192f3b01e2b641^---0#0#0#--1630"Ld DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample normal armv7    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -L/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/.. -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos -filelist /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/Objects-normal/armv7/PointCloudSample.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=5.0 -framework Accelerate -framework CoreMotion -framework QuartzCore -framework CoreMedia -framework CoreVideo -framework AVFoundation -framework OpenGLES -framework UIKit -framework Foundation -framework CoreGraphics -lpointcloud -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PointCloudSample36"4B6EDF4F-0978-483E-ACEC-728FC4BB49B6-
+
+CProcessInfoPlistFile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Info.plist PointCloudSample/PointCloudSample-Info.plist
+s383717538.337800
+e383717538.353282
+r1
+xProcessInfoPlistFile
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Info.plist
+xPointCloudSample/PointCloudSample-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process PointCloudSample/PointCloudSample-Info.plist719256a210dfb641^52ed5ba210dfb641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Info.plist0000000000000000^1042"ProcessInfoPlistFile DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Info.plist PointCloudSample/PointCloudSample-Info.plist    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PointCloudSample/PointCloudSample-Info.plist -genpkginfo /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/ResourceRules.plist -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/Info.plist36"389C919C-6FA6-4C27-BB54-6CDA4C8A087C-
+
+CProcessPCH /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383717538.441825
+e383717540.996777
+r1
+xProcessPCH
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.pth
+xPointCloudSample/PointCloudSample-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile PointCloudSample/PointCloudSample-Prefix.pchad4b71a210dfb641^3d9913a710dfb641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch0000000000000000^4253"ProcessPCH DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.pth -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-gysqdccwtmtvdngfrfjhhruhgfpq/PointCloudSample-Prefix.pch.d36"7D74B3D6-805F-43BA-861E-C5995AB913A8-
+
+CProcessPCH /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Index/PrecompiledHeaders/PointCloudSample-Prefix-heipvfzwqqzgqggkkkadxlvbvikb_ast/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383717538.362806
+e383717538.440467
+r1
+xProcessPCH++
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.pth
+xPointCloudSample/PointCloudSample-Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile PointCloudSample/PointCloudSample-Prefix.pch7a1d5da210dfb641^e01171a210dfb641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch0000000000000000^4029"ProcessPCH++ DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.pth -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-dkikqjjkfmtysaasydgajasbfpoq/PointCloudSample-Prefix.pch.d36"99518776-712A-4A00-BFFA-9082295BC003-
+
+CProcessPCH++ /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s383717538.361501
+e383717542.439392
+r1
+xProcessPCH++
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.pth
+xPointCloudSample/PointCloudSample-Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile PointCloudSample/PointCloudSample-Prefix.pch90bf5ca210dfb641^f4a513a710dfb641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch0000000000000000^4388"ProcessPCH++ DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-generated-files.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-own-target-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-all-target-headers.hmap -iquote /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample-project-headers.hmap -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources/armv7 -I/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/DerivedSources -F/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.dia -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample/PointCloudSample-Prefix.pch -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.pth -MMD -MT dependencies -MF /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PrecompiledHeaders/PointCloudSample-Prefix-fwkscovrkiyokfgrzlddnhbxybcf/PointCloudSample-Prefix.pch.d36"A2DE3EF4-B865-4763-B9BE-717B5024ECEA-
+
+CProcessPCH++ /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Index/PrecompiledHeaders/PointCloudSample-Prefix-gjpjinaayhrmathabtazvzktpuou_ast/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Index/PrecompiledHeaders/PointCloudSample-Prefix-gyoblclrooxhhmgshykpjlfohhda_ast/PointCloudSample-Prefix.pch.pth PointCloudSample/PointCloudSample-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision" /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision
+s383717548.544968
+e383717548.548582
+r1
+xProcessProductPackaging
+x/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection243"ProcessProductPackaging "/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision" DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision9ca28bac10dfb641^00708cac10dfb641^---0#0#0#-19%DVTDocumentLocation2@182"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision0000000000000000^822"ProcessProductPackaging "/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision" DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/shyun2046/Library/MobileDevice/Provisioning Profiles/4AD55118-2F18-4059-8B9A-D839B87E8526.mobileprovision" -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app/embedded.mobileprovision36"EA42B2EF-1DA4-437E-9F21-DD1498C76035-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent
+s383717548.572720
+e383717548.576863
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection277"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent66bb92ac10dfb641^08ad93ac10dfb641^---0#0#0#-19%DVTDocumentLocation2@210"file://localhost/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent000000000080d041^916"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Intermediates/PointCloudSample.build/Debug-iphoneos/PointCloudSample.build/PointCloudSample.xcent36"F8D5BD14-9AD3-4C9A-A048-861492F103F2-
+
+CTouch /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+s383910203.334564
+e383910203.344661
+r1
+xTouch
+x/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Touch /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.appf0bf553b01e2b641^d13c583b01e2b641^---0#0#0#--507"Touch DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app    cd /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/DerivedData/PointCloudSample/Build/Products/Debug-iphoneos/PointCloudSample.app36"1FC15FD7-9D46-4A9E-B5C7-87B2DBDE75EF-
+

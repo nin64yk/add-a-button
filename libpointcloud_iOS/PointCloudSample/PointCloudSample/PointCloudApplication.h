@@ -58,7 +58,9 @@ protected:
 	
 	// Switch to camera projection
 	virtual void switch_to_camera();
-	
+
+
+    
 	// Add a simple light to the scene
 	virtual void init_lighting();
 	virtual void enable_lighting();
@@ -66,13 +68,7 @@ protected:
 
 	virtual void render_point_cloud();
 	virtual void render_content(double time_since_last_frame) {};
-	
-    //* touch point
-	double tp_x;
-    double tp_y;
-    
-    //*detected point's id
-    int pc_id;
+
     
 	pointcloud_context context;
 	

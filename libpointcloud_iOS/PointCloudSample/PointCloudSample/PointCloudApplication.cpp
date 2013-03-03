@@ -250,15 +250,16 @@ void PointCloudApplication::render_point_cloud() {
             
             // *point images size
 			//glPointSize(32.0);
-            glPointSize(32.0);
+                glPointSize(32.0);
 			glEnableClientState(GL_VERTEX_ARRAY);
             
             //pointcloud_point_cloud* points = pointcloud_get_points();
             glVertexPointer(3,GL_FLOAT,0, (float *)points->points);
             
             //*drawing the points
-            glDrawArrays(GL_POINTS,pc_id, 1);
-			
+            //glDrawArrays(GL_POINTS,pc_id, 1);
+			glDrawArrays(GL_POINTS, 0, points->size);
+            
 			glDisableClientState(GL_VERTEX_ARRAY);
             
             glColor4f(1, 1, 1, 1);
@@ -314,6 +315,7 @@ void PointCloudApplication::switch_to_camera() {
 }
 
 
+
 /*
  * Initializes basic lighting
  */
@@ -324,7 +326,7 @@ void PointCloudApplication::init_lighting() {
 	
 	// Assign created components to GL_LIGHT0
 	glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);
-glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);
 	glLightfv(GL_LIGHT0, GL_SPECULAR, light_specular);
 }
 
