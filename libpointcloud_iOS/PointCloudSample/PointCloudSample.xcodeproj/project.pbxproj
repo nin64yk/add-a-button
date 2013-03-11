@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DEA542216E8B41E00CF71C2 /* path.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA542116E8B41E00CF71C2 /* path.mm */; };
 		1DF3C70B16DDDF690077E7B8 /* trackpoint_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3C70A16DDDF680077E7B8 /* trackpoint_red.png */; };
 		289FC62E15177EF9003600FD /* image_target_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 289FC62C15177EF9003600FD /* image_target_1.jpg */; };
 		289FC62F15177EF9003600FD /* image_target_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 289FC62D15177EF9003600FD /* image_target_2.jpg */; };
@@ -48,6 +49,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DEA541E16E8B40A00CF71C2 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
+		1DEA542116E8B41E00CF71C2 /* path.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = path.mm; path = ../path.mm; sourceTree = "<group>"; };
 		1DF3C70A16DDDF680077E7B8 /* trackpoint_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackpoint_red.png; sourceTree = "<group>"; };
 		289FC62C15177EF9003600FD /* image_target_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_target_1.jpg; sourceTree = "<group>"; };
 		289FC62D15177EF9003600FD /* image_target_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_target_2.jpg; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 				6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */,
 				6F35CE23151693DC0094A236 /* TestApp.h */,
 				6F35CE22151693DC0094A236 /* TestApp.cpp */,
+				1DEA541E16E8B40A00CF71C2 /* path.h */,
+				1DEA542116E8B41E00CF71C2 /* path.mm */,
 				6F35CE25151693DC0094A236 /* TextureUtilities.h */,
 				6F35CE24151693DC0094A236 /* TextureUtilities.cpp */,
 				6F35CE14151691FD0094A236 /* AppDelegate.h */,
@@ -333,6 +338,7 @@
 				6F35CE28151693DC0094A236 /* TestApp.cpp in Sources */,
 				6F35CE29151693DC0094A236 /* TextureUtilities.cpp in Sources */,
 				6F35CE2C151694500094A236 /* GLView.m in Sources */,
+				1DEA542216E8B41E00CF71C2 /* path.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
