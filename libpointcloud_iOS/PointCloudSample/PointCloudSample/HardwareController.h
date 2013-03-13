@@ -16,12 +16,18 @@ class PointCloudApplication;
 @interface HardwareController : UIViewController <GLViewDelegate, UINavigationControllerDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, UIAlertViewDelegate> {
 	AVCaptureSession *captureSession;
     GLView *glView;
+    
+    // To create an UILabel message.
+    UIView *messageView;
+    UILabel *lbl;
+    
     CVPixelBufferRef pixelBuffer;
     Float64 timestamp;
 	CMMotionManager *motionManager;
 	
 	PointCloudApplication* pointcloudApplication;
-	
+  
+    
 	BOOL restartingCamera;
 	BOOL accelerometer_available;
 	BOOL device_motion_available;
@@ -48,6 +54,7 @@ class PointCloudApplication;
 
 - (void)eventHandler:(id)data;
 
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
@@ -55,6 +62,10 @@ class PointCloudApplication;
 
 @property (nonatomic, retain) AVCaptureSession *captureSession;
 @property (nonatomic, retain) GLView *glView;
+
+@property (nonatomic, retain) UIView *messageView;
+@property (nonatomic, retain) UILabel *lbl;
+
 @property (nonatomic) CVPixelBufferRef pixelBuffer;
 @property (nonatomic, retain) CMMotionManager *motionManager;
 @property (nonatomic) double g_scale;

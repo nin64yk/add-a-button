@@ -26,7 +26,13 @@ inline double current_time() {
 class PointCloudApplication {
 	
 public:
-	
+    //point cloud viewport point(x, y)
+    double pc_x;
+    double pc_y;
+    
+	int context_width;
+    int context_height;
+    
 	PointCloudApplication(int viewport_width, int viewport_height, 
 						  int video_width, int video_height, 
 						  pointcloud_video_format video_format,

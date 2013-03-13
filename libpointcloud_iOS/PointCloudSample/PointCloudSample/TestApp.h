@@ -27,16 +27,19 @@ private:
 	void setup_cuboid();
 	double init_fadeout_time;
 //	void draw_ui();
-    //* touch point
-	double tp_x;
-    double tp_y;
+    
+    // Detecting the pd distant calculation.
+    int flag;
+    int context_width;
+    int context_height;
     
 	pointcloud_vector_3 near_position;
     
     // Switch to box projection
 	virtual void switch_to_box();
+    virtual void switch_to_messagebox();
 	// UI texture
-//	GLuint ui_texture;
+    //GLuint ui_texture;
 	
 protected:
 	virtual void render_content(double time_since_last_frame);

@@ -23,6 +23,10 @@
 @synthesize device_motion_available;
 @synthesize pointcloudApplication;
 
+@synthesize messageView;
+@synthesize lbl;
+
+
 - (void)startCamera {
     [self.captureSession startRunning];
 	restartingCamera = NO;
@@ -103,6 +107,22 @@
 		device_motion_available = true;
 		[self.motionManager startDeviceMotionUpdates];
 	}
+    
+    
+    _button = [[UIButton alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)]
+    
+    
+    // Creating a messageView
+    messageView = [[UIView alloc] initWithFrame:rect];
+    messageView.opaque = NO;
+    messageView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];
+    [glView addSubview:messageView];
+    
+    // Creating an UILabel
+    lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    lbl.hidden = YES;
+    lbl.text = @"";
+    [messageView addSubview:lbl];
 }
 
 
@@ -200,6 +220,24 @@ machineName()
 		pointcloudApplication->render_frame(ba, CVPixelBufferGetDataSize(self.pixelBuffer), timestamp);
 		
 		CVPixelBufferUnlockBaseAddress (self.pixelBuffer, 0);
+        
+        pointcloud_state pc_state = pointcloud_get_state();
+        
+        // ms = messagebox, pc = pointcloud
+        glView->ms_x = pointcloudApplication->pc_x;
+        glView->ms_y = pointcloudApplication->pc_y;
+        
+        if ((glView->ms_x != -1) || ( 0 <= glView->ms_x && glView->ms_x < pointcloudApplication->context_width) || (0 <= glView->ms_y && glView->ms_y < pointcloudApplication->context_height)) {
+            lbl.hidden = NO;
+            [lbl setCenter:CGPointMake(glView->ms_x + (lbl.frame.size.width)/2, glView->ms_y - (lbl.frame.size.height)/2)];
+            lbl.text = @"Hello World";
+        } else  {
+            lbl.hidden = YES;
+        }
+        if (pc_state == POINTCLOUD_RELOCALIZING /**< Tracking is lost, trying to relocalize. */) {
+            lbl.hidden = YES;
+        }
+        
 		return;
 	}
 }
@@ -466,3 +504,4 @@ static char * getRGBA(UIImage * image) {
 	
 	return (char*) data;
 }
+

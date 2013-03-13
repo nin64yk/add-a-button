@@ -35,6 +35,13 @@ PointCloudApplication::PointCloudApplication(int viewport_width, int viewport_he
 	setup_graphics();
 	
 	init_lighting();
+    
+    // setting pc_x and pc_y
+    pc_x = -1;
+    pc_y = -1;
+    
+    context_width = context.viewport_width;
+    context_height = context.viewport_height;
 }
 
 
@@ -271,7 +278,7 @@ void PointCloudApplication::render_point_cloud() {
 			glDisable(GL_POINT_SPRITE_OES);
 			
 			pointcloud_destroy_point_cloud(points);
-			
+            
 			switch_to_ortho();
         } 
     }    

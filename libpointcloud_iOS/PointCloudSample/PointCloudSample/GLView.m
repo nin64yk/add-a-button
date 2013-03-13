@@ -1,5 +1,6 @@
 #import <QuartzCore/QuartzCore.h>
 #import <OpenGLES/EAGLDrawable.h>
+//#import <UIkit/UIStringDrawing.h>
 
 #import "GLView.h"
 
@@ -7,6 +8,29 @@
 
 @synthesize context;
 @synthesize delegate;
+@synthesize messagebox;
+
+// Label
+- (UILabel *)newLabelWithOffset:(float)offset numberOfLines:(NSUInteger)lines
+{
+
+    float texHeight = 20.0;
+    //UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(self.frame.origin.x + 10.0, offset, 100, texHeight * lines)];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(ms_x, ms_y - (texHeight * lines), 100, texHeight * lines)];
+    
+    label.font = [UIFont systemFontOfSize:18.0];
+    label.textColor = [UIColor lightTextColor];
+    label.backgroundColor = [UIColor clearColor];
+    label.textAlignment = UITextAlignmentCenter;
+    
+    label.numberOfLines = lines;
+    if (lines > 1) 
+        label.lineBreakMode = UILineBreakModeWordWrap;
+    label.text = @"";
+        
+    return label;
+}
+
 
 // Set up a view with an OpenGL backing
 + (Class)layerClass 
@@ -29,10 +53,14 @@
         
 		context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
 		
+
+        
 		if (!context || ![EAGLContext setCurrentContext:context]) {
 			[self release];
 			return nil;
 		}
+        
+//        count = 0;
     }
 	
     return self;
@@ -47,9 +75,10 @@
     glBindRenderbufferOES(GL_RENDERBUFFER_OES, renderbuffer);
     
 	[context presentRenderbuffer:GL_RENDERBUFFER_OES];
+
 }
 
-- (void)layoutSubviews 
+- (void)layoutSubviews
 {
     [EAGLContext setCurrentContext:context];
     
@@ -58,6 +87,7 @@
     [self createFramebuffer];
 	
     [self drawView];
+    
 }
 
 - (BOOL)createFramebuffer 
@@ -92,6 +122,7 @@
         return NO;
     }
     [delegate setupView:self];
+    
     return YES;
 }
 
@@ -118,7 +149,23 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	[delegate touchesBegan:touches withEvent:event];
+    [delegate touchesBegan:touches withEvent:event];
+
+    
+    
+//        messagebox = [self newLabelWithOffset:(self.frame.origin.y+25) numberOfLines:3];
+//        messagebox.text = @"Hello, World!";
+//        messagebox.opaque = NO;
+//        messagebox.backgroundColor = [UIColor blackColor];
+//        messagebox.textColor = [UIColor redColor];
+//        messagebox.font = [UIFont systemFontOfSize:12.0f];
+//        [self addSubview:messagebox];
+//        count++;
+//    
+//    printf("%d", count);
+    
+
+
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
