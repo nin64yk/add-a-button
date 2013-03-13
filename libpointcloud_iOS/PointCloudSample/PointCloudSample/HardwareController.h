@@ -20,6 +20,9 @@ class PointCloudApplication;
     // To create an UILabel message.
     UIView *messageView;
     UILabel *lbl;
+    UILabel *startButton;
+    UILabel *loadButton;
+    UILabel *saveButton;
     
     CVPixelBufferRef pixelBuffer;
     Float64 timestamp;

@@ -4,11 +4,11 @@
 <dict>
 	<key>FoundWorkingCopyPaths</key>
 	<array>
-		<string>/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample</string>
 		<string>/Users/shyun2046/Interface</string>
+		<string>/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample</string>
 	</array>
 	<key>LastWorkingCopyScanDate</key>
-	<date>2013-03-13T11:26:56Z</date>
+	<date>2013-03-13T15:14:09Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

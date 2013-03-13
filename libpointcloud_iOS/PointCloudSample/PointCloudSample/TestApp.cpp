@@ -316,10 +316,6 @@ bool TestApp::on_touch_started(double x, double y) {
         
     } else if (y > context_height-112 && (x >= context_width/3 && x < context_width*2/3)){
         
-        printf("Resetting\n");
-        pointcloud_reset();
-        
-    } else if (y > context_height-112 && context_width*2/3 < x && x < context_width*5/6){
                
         //dumpPath();
         //printf("\n%s\n", createFileName("/pc.txt"));
@@ -328,7 +324,7 @@ bool TestApp::on_touch_started(double x, double y) {
         printf("\n%s\n", getDocumentPath());
         printf("\nMap saved\n");
         
-    } else if (y > context_height-112 && context_width*5/6 < x){
+    } else if (y > context_height-112 && context_width*2/3 < x){
         
         pointcloud_reset();
         pointcloud_load_map(getDocumentPath());

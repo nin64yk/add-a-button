@@ -150,22 +150,6 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [delegate touchesBegan:touches withEvent:event];
-
-    
-    
-//        messagebox = [self newLabelWithOffset:(self.frame.origin.y+25) numberOfLines:3];
-//        messagebox.text = @"Hello, World!";
-//        messagebox.opaque = NO;
-//        messagebox.backgroundColor = [UIColor blackColor];
-//        messagebox.textColor = [UIColor redColor];
-//        messagebox.font = [UIFont systemFontOfSize:12.0f];
-//        [self addSubview:messagebox];
-//        count++;
-//    
-//    printf("%d", count);
-    
-
-
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;

@@ -108,8 +108,7 @@
 		[self.motionManager startDeviceMotionUpdates];
 	}
     
-    
-    _button = [[UIButton alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)]
+
     
     
     // Creating a messageView
@@ -117,12 +116,37 @@
     messageView.opaque = NO;
     messageView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];
     [glView addSubview:messageView];
+
     
     // Creating an UILabel
-    lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 200)];
     lbl.hidden = YES;
+    lbl.textAlignment = UITextAlignmentCenter;
     lbl.text = @"";
     [messageView addSubview:lbl];
+    
+    // Creating a button
+    startButton = [[UILabel alloc] initWithFrame:CGRectMake(0, 907, 250, 100)];
+    startButton.text = @"start";
+    startButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:[UIFont buttonFontSize]];
+    startButton.textAlignment = UITextAlignmentCenter;
+    startButton.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:startButton];
+    
+    saveButton = [[UILabel alloc] initWithFrame:CGRectMake(261, 907, 250, 100)];
+    saveButton.text = @"save";
+    saveButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:[UIFont buttonFontSize]];
+    saveButton.textAlignment = UITextAlignmentCenter;
+    saveButton.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:saveButton];
+    
+    loadButton = [[UILabel alloc] initWithFrame:CGRectMake(521, 907, 250, 100)];
+    loadButton.text = @"load";
+    loadButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:[UIFont buttonFontSize]];
+    loadButton.textAlignment = UITextAlignmentCenter;
+    loadButton.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:loadButton];
+      
 }
 
 
@@ -230,7 +254,7 @@ machineName()
         if ((glView->ms_x != -1) || ( 0 <= glView->ms_x && glView->ms_x < pointcloudApplication->context_width) || (0 <= glView->ms_y && glView->ms_y < pointcloudApplication->context_height)) {
             lbl.hidden = NO;
             [lbl setCenter:CGPointMake(glView->ms_x + (lbl.frame.size.width)/2, glView->ms_y - (lbl.frame.size.height)/2)];
-            lbl.text = @"Hello World";
+            lbl.text = @"Hello, World!";
         } else  {
             lbl.hidden = YES;
         }
