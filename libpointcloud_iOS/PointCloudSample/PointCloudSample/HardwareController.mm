@@ -108,8 +108,6 @@
 		[self.motionManager startDeviceMotionUpdates];
 	}
     
-
-    
     
     // Creating a messageView
     messageView = [[UIView alloc] initWithFrame:rect];
@@ -117,7 +115,6 @@
     messageView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];
     [glView addSubview:messageView];
 
-    
     // Creating an UILabel
     lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 200)];
     lbl.hidden = YES;
@@ -128,25 +125,25 @@
     // Creating a button
     startButton = [[UILabel alloc] initWithFrame:CGRectMake(0, 907, 250, 100)];
     startButton.text = @"start";
-    startButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:[UIFont buttonFontSize]];
+    startButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
     startButton.textAlignment = UITextAlignmentCenter;
     startButton.backgroundColor = [UIColor grayColor];
     [messageView addSubview:startButton];
     
-    saveButton = [[UILabel alloc] initWithFrame:CGRectMake(261, 907, 250, 100)];
+    saveButton = [[UILabel alloc] initWithFrame:CGRectMake(260, 907, 250, 100)];
     saveButton.text = @"save";
-    saveButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:[UIFont buttonFontSize]];
+    saveButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
     saveButton.textAlignment = UITextAlignmentCenter;
     saveButton.backgroundColor = [UIColor grayColor];
     [messageView addSubview:saveButton];
     
     loadButton = [[UILabel alloc] initWithFrame:CGRectMake(521, 907, 250, 100)];
     loadButton.text = @"load";
-    loadButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:[UIFont buttonFontSize]];
+    loadButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
     loadButton.textAlignment = UITextAlignmentCenter;
     loadButton.backgroundColor = [UIColor grayColor];
     [messageView addSubview:loadButton];
-      
+
 }
 
 
@@ -167,6 +164,7 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
 	CGPoint pt = [[touches anyObject] locationInView:self.glView];
+    pt_x = pt.x;
 	if (pointcloudApplication) {
 		pointcloudApplication->on_touch_started(pt.x, pt.y);
 	}	
@@ -251,14 +249,17 @@ machineName()
         glView->ms_x = pointcloudApplication->pc_x;
         glView->ms_y = pointcloudApplication->pc_y;
         
-        if ((glView->ms_x != -1) || ( 0 <= glView->ms_x && glView->ms_x < pointcloudApplication->context_width) || (0 <= glView->ms_y && glView->ms_y < pointcloudApplication->context_height)) {
+        if ((glView->ms_x != -1) || ( 0 <= glView->ms_x && glView->ms_x < pointcloudApplication->context_width) || (0 <= glView->ms_y && glView->ms_y < pointcloudApplication->context_height)|| pt_x){
             lbl.hidden = NO;
             [lbl setCenter:CGPointMake(glView->ms_x + (lbl.frame.size.width)/2, glView->ms_y - (lbl.frame.size.height)/2)];
             lbl.text = @"Hello, World!";
+            
         } else  {
             lbl.hidden = YES;
         }
-        if (pc_state == POINTCLOUD_RELOCALIZING /**< Tracking is lost, trying to relocalize. */) {
+        if (pc_state == POINTCLOUD_RELOCALIZING /**< Tracking is lost, trying to relocalize. */
+            || pc_state == POINTCLOUD_INITIALIZING
+            || pc_state == POINTCLOUD_IDLE) {
             lbl.hidden = YES;
         }
         

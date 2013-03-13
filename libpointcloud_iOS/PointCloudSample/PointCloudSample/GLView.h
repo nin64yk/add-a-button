@@ -26,23 +26,18 @@
 	GLuint framebuffer;
     GLuint renderbuffer;
     GLuint depthbuffer;
-    
-    // Label
-//    UILabel *messagebox;
 
     id<GLViewDelegate> delegate;
     
     @public
-//    // Coordination of massagebox
-    float ms_x;
-    float ms_y;
-//    
-//    int count;
+    // Coordination of massagebox
+    double ms_x;
+    double ms_y;
+
     
 }
 
-//Label
-//- (UILabel *)newLabelWithOffset:(float)offset numberOfLines:(NSUInteger)lines;
+
 
 @property (assign) id<GLViewDelegate>  delegate;
 

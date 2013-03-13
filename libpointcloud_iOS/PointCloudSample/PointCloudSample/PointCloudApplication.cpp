@@ -6,6 +6,7 @@
 
 #include "PointCloudApplication.h"
 #include <cassert>
+#import <UIKit/UIKit.h>
 
 
 PointCloudApplication::PointCloudApplication(int viewport_width, int viewport_height, 
@@ -37,9 +38,20 @@ PointCloudApplication::PointCloudApplication(int viewport_width, int viewport_he
 	init_lighting();
     
     // setting pc_x and pc_y
-    pc_x = -1;
-    pc_y = -1;
-    
+//    defaults = [NSUserDefaults standardUserDefaults];
+//    
+//    if (defaults != Nil) {
+//        double _x = [defaults doubleForKey:@"X"];
+//        double _y = [defaults doubleForKey:@"Y"];
+//        double _z = [defaults doubleForKey:@"Z"];
+//        
+//        
+//        
+//    } else {
+//        pc_x = -1;
+//        pc_y = -1;
+//    }  
+        
     context_width = context.viewport_width;
     context_height = context.viewport_height;
 }

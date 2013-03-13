@@ -49,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6B279816F0FAF9000F39A8 /* TestApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestApp.h; sourceTree = "<group>"; };
 		1DEA541E16E8B40A00CF71C2 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
 		1DEA542116E8B41E00CF71C2 /* path.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = path.mm; path = ../path.mm; sourceTree = "<group>"; };
 		1DF3C70A16DDDF680077E7B8 /* trackpoint_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackpoint_red.png; sourceTree = "<group>"; };
@@ -78,10 +79,9 @@
 		6F35CE1C151693100094A236 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		6F35CE1E151693DC0094A236 /* HardwareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareController.h; sourceTree = "<group>"; };
 		6F35CE1F151693DC0094A236 /* HardwareController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HardwareController.mm; sourceTree = "<group>"; };
-		6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointCloudApplication.cpp; sourceTree = "<group>"; };
+		6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = PointCloudApplication.cpp; sourceTree = "<group>"; };
 		6F35CE21151693DC0094A236 /* PointCloudApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCloudApplication.h; sourceTree = "<group>"; };
 		6F35CE22151693DC0094A236 /* TestApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = TestApp.cpp; sourceTree = "<group>"; };
-		6F35CE23151693DC0094A236 /* TestApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = TestApp.h; sourceTree = "<group>"; };
 		6F35CE24151693DC0094A236 /* TextureUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureUtilities.cpp; sourceTree = "<group>"; };
 		6F35CE25151693DC0094A236 /* TextureUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureUtilities.h; sourceTree = "<group>"; };
 		6F35CE2A151694500094A236 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 				6F35CE1F151693DC0094A236 /* HardwareController.mm */,
 				6F35CE21151693DC0094A236 /* PointCloudApplication.h */,
 				6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */,
-				6F35CE23151693DC0094A236 /* TestApp.h */,
+				1D6B279816F0FAF9000F39A8 /* TestApp.h */,
 				6F35CE22151693DC0094A236 /* TestApp.cpp */,
 				1DEA541E16E8B40A00CF71C2 /* path.h */,
 				1DEA542116E8B41E00CF71C2 /* path.mm */,

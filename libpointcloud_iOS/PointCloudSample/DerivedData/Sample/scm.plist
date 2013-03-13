@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/shyun2046/Interface</string>
+		<string>/Users/shyun2046/Interface/libpointcloud_iOS/PointCloudSample/PointCloudSample</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2013-03-13T18:37:10Z</date>
+	<key>Version</key>
+	<integer>3</integer>
+</dict>
+</plist>

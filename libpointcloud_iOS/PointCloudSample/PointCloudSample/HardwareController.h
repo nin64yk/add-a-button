@@ -23,6 +23,9 @@ class PointCloudApplication;
     UILabel *startButton;
     UILabel *loadButton;
     UILabel *saveButton;
+   
+    //touch
+    CGFloat pt_x;
     
     CVPixelBufferRef pixelBuffer;
     Float64 timestamp;

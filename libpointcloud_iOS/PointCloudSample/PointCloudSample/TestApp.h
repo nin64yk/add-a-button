@@ -28,8 +28,10 @@ private:
 	double init_fadeout_time;
 //	void draw_ui();
     
+    
     // Detecting the pd distant calculation.
     int flag;
+    
     int context_width;
     int context_height;
     
@@ -37,7 +39,7 @@ private:
     
     // Switch to box projection
 	virtual void switch_to_box();
-    virtual void switch_to_messagebox();
+
 	// UI texture
     //GLuint ui_texture;
 	
@@ -45,7 +47,6 @@ protected:
 	virtual void render_content(double time_since_last_frame);
 	
 public:
-	
 	TestApp(int viewport_width, int viewport_height, 
 			int video_width, int video_height, 
 			pointcloud_video_format video_format,
@@ -58,7 +59,10 @@ public:
 	virtual bool on_touch_moved(double x, double y);
 	virtual bool on_touch_ended(double x, double y);
 	virtual bool on_touch_cancelled(double x, double y);
-	
+    
+    double saved_pc_x;
+    double saved_pc_y;
+    double saved_pc_z;
 };
 
 

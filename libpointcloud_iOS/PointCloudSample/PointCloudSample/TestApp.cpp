@@ -9,7 +9,7 @@
 #include <string>
 #include <unistd.h>
 #include "path.h"
-
+#import <UIKit/UIKit.h>
 
 TestApp::TestApp(int viewport_width, int viewport_height, 
 				 int video_width, int video_height, 
@@ -36,10 +36,9 @@ PointCloudApplication(viewport_width, viewport_height,
     pointcloud_add_image_target("image_2", image_target_2_path.c_str(), 0.3, -1);
     	
 	// Create the texture used for the UI
-//	ui_texture = read_png_texture("ui.png", true);
-    //*Saved map
+    //ui_texture = read_png_texture("ui.png", true);
+    
     flag = -1;
-
 }
 
 
@@ -96,7 +95,7 @@ void TestApp::setup_cuboid() {
 		}
 	}
     
-    this->selected_button = SLAM;
+ //   this->selected_button = SLAM;
 }
 
 
@@ -200,7 +199,7 @@ void TestApp::draw_ui() {
 void TestApp::render_content(double time_since_last_frame) {
 	
     pointcloud_state state = pointcloud_get_state();
-	
+    
 	// Draw the content if we have SLAM or image tracking
 	if (state == POINTCLOUD_TRACKING_SLAM_MAP) {
 /*
@@ -244,8 +243,26 @@ void TestApp::render_content(double time_since_last_frame) {
             pc_x = pv2_v.x;
             pc_y = pv2_v.y;
 
+        } else if (flag == 2) {
+        
+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            
+            saved_pc_x = [defaults doubleForKey:@"X"];
+            saved_pc_y = [defaults doubleForKey:@"Y"];
+            saved_pc_z = [defaults doubleForKey:@"Z"];
+            
+            pointcloud_vector_3 pv3;
+            pointcloud_vector_2 pv2;
+            pointcloud_vector_2 pv2_v;
+            
+            pv3 = pointcloud_map_to_camera(saved_pc_x, saved_pc_y, saved_pc_z);
+            pv2 = pointcloud_camera_to_video(pv3.x, pv3.y, pv3.z);
+            pv2_v = pointcloud_video_to_viewport(pv2.x, pv2.y);
+            
+            pc_x = pv2_v.x;
+            pc_y = pv2_v.y;
+            
         }
-
     }
 }
 
@@ -279,16 +296,6 @@ void TestApp::switch_to_box() {
 }
 
 
-void TestApp::switch_to_messagebox() {
-    disable_lighting();
-	
-	glDisable(GL_DEPTH_TEST);
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	glOrthof(0, context.viewport_width, context.viewport_height, 0, -1, 1);
-	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();
-}
 
 
 bool TestApp::on_touch_started(double x, double y) {
@@ -297,14 +304,12 @@ bool TestApp::on_touch_started(double x, double y) {
 	context_height = context.viewport_height;
 
     //*Only use slam
-    
-//    pointcloud_reset();
-
     //* Deactivate image recognition
     pointcloud_deactivate_image_target("image_1");
     pointcloud_deactivate_image_target("image_2");
 
     if (y > context_height-112 && x < context_width/3) {
+        // Start slam
         pointcloud_reset();
         //* Deactivate image recognition
         pointcloud_deactivate_image_target("image_1");
@@ -315,27 +320,31 @@ bool TestApp::on_touch_started(double x, double y) {
 
         
     } else if (y > context_height-112 && (x >= context_width/3 && x < context_width*2/3)){
-        
-               
-        //dumpPath();
-        //printf("\n%s\n", createFileName("/pc.txt"));
-        
+        // SAVE map        
         pointcloud_save_current_map(getDocumentPath());
         printf("\n%s\n", getDocumentPath());
         printf("\nMap saved\n");
         
+        flag = 1;
+        
     } else if (y > context_height-112 && context_width*2/3 < x){
         
-        pointcloud_reset();
+        // Load map
         pointcloud_load_map(getDocumentPath());
         printf("\n%s\n", getDocumentPath());
+        
         printf("\nMap loaded\n");
+        
+        flag = 2;
     }
     
     if (y < context_height - 112) {
         pointcloud_state state = pointcloud_get_state();
         
         if (state == POINTCLOUD_TRACKING_SLAM_MAP) {
+            
+
+            
             pointcloud_point_cloud* pc;
             pc = pointcloud_get_points();
             
@@ -374,6 +383,13 @@ bool TestApp::on_touch_started(double x, double y) {
             near_position.x = pc->points[pd_num].x;
             near_position.y = pc->points[pd_num].y;
             near_position.z = pc->points[pd_num].z;
+            
+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            [defaults setDouble:near_position.x forKey:@"X"];
+            [defaults setDouble:near_position.y forKey:@"Y"];
+            [defaults setDouble:near_position.z forKey:@"Z"];
+            [defaults synchronize];
+            
             
             flag = 1;
             
