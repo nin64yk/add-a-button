@@ -14,7 +14,7 @@ void dumpPath(){
 char* getDocumentPath(){
     NSArray  *documentDirList = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentDir  = [documentDirList objectAtIndex:0];
-    NSString *documentPath = [documentDir stringByAppendingPathComponent:@"fileName"];
+    NSString *documentPath = [documentDir stringByAppendingPathComponent:@"pc"];
     const char *path = [documentPath cStringUsingEncoding:NSUTF8StringEncoding];
     
     int c = 0;
@@ -31,7 +31,7 @@ char* getDocumentPath(){
 char* createFileName(const char * name){
     NSArray  *documentDirList = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentDir  = [documentDirList objectAtIndex:0];
-    NSString *documentPath = [documentDir stringByAppendingPathComponent:@"name"];
+    NSString *documentPath = [documentDir stringByAppendingPathComponent:@"pc"];
     const char *path = [documentPath cStringUsingEncoding:NSUTF8StringEncoding];
     
     int c = 0;
@@ -53,3 +53,5 @@ char* createFileName(const char * name){
     
     return str;
 }
+
+
