@@ -1,3 +1,4 @@
 void dumpPath();
 char* getDocumentPath();
-char* createFileName(const char* filename);
+char* getFilePath(NSString* name);
+char* createFileName(const char* name);

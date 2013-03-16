@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5F7D3616F1431800C67419 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D5F7D3516F1431800C67419 /* map.jpg */; };
 		1DEA542216E8B41E00CF71C2 /* path.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA542116E8B41E00CF71C2 /* path.mm */; };
 		1DF3C70B16DDDF690077E7B8 /* trackpoint_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3C70A16DDDF680077E7B8 /* trackpoint_red.png */; };
 		289FC62E15177EF9003600FD /* image_target_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 289FC62C15177EF9003600FD /* image_target_1.jpg */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D5F7D3516F1431800C67419 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
 		1D6B279816F0FAF9000F39A8 /* TestApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestApp.h; sourceTree = "<group>"; };
 		1DEA541E16E8B40A00CF71C2 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
 		1DEA542116E8B41E00CF71C2 /* path.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = path.mm; path = ../path.mm; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		289FC64415177F46003600FD /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1D5F7D3516F1431800C67419 /* map.jpg */,
 				6F35CE591516AA610094A236 /* pointcloud-logo.png */,
 				C7048EF51520787C008D6A61 /* ui.png */,
 				1DF3C70A16DDDF680077E7B8 /* trackpoint_red.png */,
@@ -321,6 +324,7 @@
 				C7048EF61520787C008D6A61 /* ui.png in Resources */,
 				874A87DA16308D29004354DB /* Default-568h@2x.png in Resources */,
 				1DF3C70B16DDDF690077E7B8 /* trackpoint_red.png in Resources */,
+				1D5F7D3616F1431800C67419 /* map.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

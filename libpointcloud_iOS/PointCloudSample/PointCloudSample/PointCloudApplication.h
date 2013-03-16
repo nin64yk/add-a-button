@@ -31,15 +31,11 @@ public:
     double pc_x;
     double pc_y;
     
-    
-    // Saving the value of x and y.
-    double *saved_x;
-    double *saved_y;
-    
 	int context_width;
     int context_height;
     
-    NSUserDefaults *defaults;
+    NSUserDefaults *defaults1;
+    NSUserDefaults *defaults2;
     
 	PointCloudApplication(int viewport_width, int viewport_height, 
 						  int video_width, int video_height, 

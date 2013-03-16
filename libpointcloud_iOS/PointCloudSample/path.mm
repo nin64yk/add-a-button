@@ -20,13 +20,32 @@ char* getDocumentPath(){
     int c = 0;
     while (path[c] != '\0') {
         c++;
-        
     }
+    
     char *str = (char *)malloc((c+1)*sizeof(char));
     memcpy(str, path, (c+1)*sizeof(char));
 
     return str;
 }
+
+
+char* getFilePath(NSString* name){
+    NSArray  *documentDirList = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentDir  = [documentDirList objectAtIndex:0];
+    NSString *documentPath = [documentDir stringByAppendingPathComponent:name];
+    const char *path = [documentPath cStringUsingEncoding:NSUTF8StringEncoding];
+    
+    int c = 0;
+    while (path[c] != '\0') {
+        c++;
+    }
+    
+    char *str = (char *)malloc((c+1)*sizeof(char));
+    memcpy(str, path, (c+1)*sizeof(char));
+    
+    return str;
+}
+
 
 char* createFileName(const char * name){
     NSArray  *documentDirList = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -37,7 +56,6 @@ char* createFileName(const char * name){
     int c = 0;
     while (path[c] != '\0') {
         c++;
-        
     }
     
     int c2 = 0;
@@ -47,6 +65,7 @@ char* createFileName(const char * name){
     }
     
     char *str = (char *)malloc((c+c2+1)*sizeof(char));
+    // Init a str
     memset(str, '\0', sizeof((c+c2+1)*sizeof(char)));
     memcpy(str, path, (c)*sizeof(char));
     memcpy(str+c, name, (c2+1)*sizeof(char));

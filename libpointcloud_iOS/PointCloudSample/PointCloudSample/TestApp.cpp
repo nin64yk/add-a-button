@@ -231,6 +231,10 @@ void TestApp::render_content(double time_since_last_frame) {
 		glDisable(GL_COLOR_MATERIAL);
 		glColor4f(1, 1, 1, 1);
 */
+        saved_pc_x = 0;
+        saved_pc_y = 0;
+        saved_pc_z = 0;
+        
         if (flag == 1) {
             pointcloud_vector_3 pv3;
             pointcloud_vector_2 pv2;
@@ -245,11 +249,11 @@ void TestApp::render_content(double time_since_last_frame) {
 
         } else if (flag == 2) {
         
-            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            NSUserDefaults *defaults1 = [NSUserDefaults standardUserDefaults];
             
-            saved_pc_x = [defaults doubleForKey:@"X"];
-            saved_pc_y = [defaults doubleForKey:@"Y"];
-            saved_pc_z = [defaults doubleForKey:@"Z"];
+            saved_pc_x = [defaults1 doubleForKey:@"X1"];
+            saved_pc_y = [defaults1 doubleForKey:@"Y1"];
+            saved_pc_z = [defaults1 doubleForKey:@"Z1"];
             
             pointcloud_vector_3 pv3;
             pointcloud_vector_2 pv2;
@@ -262,6 +266,25 @@ void TestApp::render_content(double time_since_last_frame) {
             pc_x = pv2_v.x;
             pc_y = pv2_v.y;
             
+        } else if (flag == 3) {
+            
+            NSUserDefaults *defaults2 = [NSUserDefaults standardUserDefaults];
+            
+            saved_pc_x = [defaults2 doubleForKey:@"X2"];
+            saved_pc_y = [defaults2 doubleForKey:@"Y2"];
+            saved_pc_z = [defaults2 doubleForKey:@"Z2"];
+            
+            pointcloud_vector_3 pv3;
+            pointcloud_vector_2 pv2;
+            pointcloud_vector_2 pv2_v;
+            
+            pv3 = pointcloud_map_to_camera(saved_pc_x, saved_pc_y, saved_pc_z);
+            pv2 = pointcloud_camera_to_video(pv3.x, pv3.y, pv3.z);
+            pv2_v = pointcloud_video_to_viewport(pv2.x, pv2.y);
+            
+            pc_x = pv2_v.x;
+            pc_y = pv2_v.y;
+           
         }
     }
 }
@@ -311,31 +334,49 @@ bool TestApp::on_touch_started(double x, double y) {
     if (y > context_height-112 && x < context_width/3) {
         // Start slam
         pointcloud_reset();
-        //* Deactivate image recognition
-        pointcloud_deactivate_image_target("image_1");
-        pointcloud_deactivate_image_target("image_2");
         
         printf("Start initialization\n");
         pointcloud_start_slam();
 
         
-    } else if (y > context_height-112 && (x >= context_width/3 && x < context_width*2/3)){
-        // SAVE map        
-        pointcloud_save_current_map(getDocumentPath());
-        printf("\n%s\n", getDocumentPath());
-        printf("\nMap saved\n");
+    } else if (y > context_height-112 && (context_width/3 <= x  && x < context_width*1/2)){
+        // SAVE1 map        
+        pointcloud_save_current_map(getFilePath(@"map1"));
+        printf("\n%s",getFilePath(@"map1"));
+        printf("\nMap1 saved\n");
+        NSUserDefaults *defaults1 = [NSUserDefaults standardUserDefaults];
+        [defaults1 setDouble:near_position.x forKey:@"X1"];
+        [defaults1 setDouble:near_position.y forKey:@"Y1"];
+        [defaults1 setDouble:near_position.z forKey:@"Z1"];
+        [defaults1 synchronize];
+
         
-        flag = 1;
+    } else if (y > context_height-112 && (context_width*1/2 <= x && x < context_width*2/3)){
+        // SAVE2 map
+        pointcloud_save_current_map(getFilePath(@"map2"));
+        printf("\n%s",getFilePath(@"map2"));
+        printf("\nMap2 saved\n");
+        NSUserDefaults *defaults2 = [NSUserDefaults standardUserDefaults];
+        [defaults2 setDouble:near_position.x forKey:@"X2"];
+        [defaults2 setDouble:near_position.y forKey:@"Y2"];
+        [defaults2 setDouble:near_position.z forKey:@"Z2"];
+        [defaults2 synchronize];
+
         
-    } else if (y > context_height-112 && context_width*2/3 < x){
-        
-        // Load map
-        pointcloud_load_map(getDocumentPath());
-        printf("\n%s\n", getDocumentPath());
-        
-        printf("\nMap loaded\n");
-        
+    }else if (y > context_height-112 && (context_width*2/3 < x && x < context_width*5/6)){
+        // LOAD1 map
+        pointcloud_load_map(getFilePath(@"map1"));
+        printf("\n%s", getFilePath(@"map1"));
+        printf("\nMap1 loaded\n");
         flag = 2;
+
+    } else if (y > context_height-112 && (context_width*5/6 < x)){
+        // LOAD2 map
+        pointcloud_load_map(getFilePath(@"map2"));
+        printf("\n%s", getFilePath(@"map2"));
+        printf("\nMap2 loaded\n");
+        flag = 3;
+        
     }
     
     if (y < context_height - 112) {
@@ -384,12 +425,9 @@ bool TestApp::on_touch_started(double x, double y) {
             near_position.y = pc->points[pd_num].y;
             near_position.z = pc->points[pd_num].z;
             
-            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-            [defaults setDouble:near_position.x forKey:@"X"];
-            [defaults setDouble:near_position.y forKey:@"Y"];
-            [defaults setDouble:near_position.z forKey:@"Z"];
-            [defaults synchronize];
+
             
+
             
             flag = 1;
             

@@ -23,8 +23,18 @@
 @synthesize device_motion_available;
 @synthesize pointcloudApplication;
 
+@synthesize imageView;
+@synthesize mapView;
+
 @synthesize messageView;
 @synthesize lbl;
+@synthesize startButton;
+@synthesize load1Button;
+@synthesize load2Button;
+@synthesize save1Button;
+@synthesize save2Button;
+
+
 
 
 - (void)startCamera {
@@ -130,25 +140,48 @@
     startButton.backgroundColor = [UIColor grayColor];
     [messageView addSubview:startButton];
     
-    saveButton = [[UILabel alloc] initWithFrame:CGRectMake(260, 907, 250, 100)];
-    saveButton.text = @"save";
-    saveButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
-    saveButton.textAlignment = UITextAlignmentCenter;
-    saveButton.backgroundColor = [UIColor grayColor];
-    [messageView addSubview:saveButton];
+    save1Button = [[UILabel alloc] initWithFrame:CGRectMake(260, 907, 125, 100)];
+    save1Button.text = @"save1";
+    save1Button.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
+    save1Button.textAlignment = UITextAlignmentCenter;
+    save1Button.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:save1Button];
     
-    loadButton = [[UILabel alloc] initWithFrame:CGRectMake(521, 907, 250, 100)];
-    loadButton.text = @"load";
-    loadButton.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
-    loadButton.textAlignment = UITextAlignmentCenter;
-    loadButton.backgroundColor = [UIColor grayColor];
-    [messageView addSubview:loadButton];
+    save2Button = [[UILabel alloc] initWithFrame:CGRectMake(390, 907, 125, 100)];
+    save2Button.text = @"save2";
+    save2Button.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
+    save2Button.textAlignment = UITextAlignmentCenter;
+    save2Button.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:save2Button];
+    
+    load1Button = [[UILabel alloc] initWithFrame:CGRectMake(521, 907, 125, 100)];
+    load1Button.text = @"load1";
+    load1Button.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
+    load1Button.textAlignment = UITextAlignmentCenter;
+    load1Button.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:load1Button];
+    
+    load2Button = [[UILabel alloc] initWithFrame:CGRectMake(650, 907, 125, 100)];
+    load2Button.text = @"load2";
+    load2Button.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:27];
+    load2Button.textAlignment = UITextAlignmentCenter;
+    load2Button.backgroundColor = [UIColor grayColor];
+    [messageView addSubview:load2Button];
 
+    imageView = [[UIView alloc] initWithFrame:rect];
+    imageView.opaque = NO;
+    imageView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];
+    [messageView addSubview:imageView];
+    
+    mapView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"map.jpg"]];
+    [mapView setFrame:CGRectMake(0, 0, 768, 907)];
+    mapView.hidden = NO;
+    [imageView addSubview:mapView];
 }
 
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	CGPoint pt = [[touches anyObject] locationInView:self.glView];
+   	CGPoint pt = [[touches anyObject] locationInView:self.glView];
 	if (pointcloudApplication) {
 		pointcloudApplication->on_touch_moved(pt.x, pt.y);
 	}
@@ -163,11 +196,20 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    UITouch *touch = [touches anyObject];
+
+    
+    if ([touch view] == imageView) {
+        NSLog(@"\nTouch imageView\n");
+        [mapView removeFromSuperview];
+    }
+    
 	CGPoint pt = [[touches anyObject] locationInView:self.glView];
     pt_x = pt.x;
-	if (pointcloudApplication) {
-		pointcloudApplication->on_touch_started(pt.x, pt.y);
-	}	
+    
+    if (pointcloudApplication) {
+        pointcloudApplication->on_touch_started(pt.x, pt.y);
+    }
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
@@ -248,8 +290,21 @@ machineName()
         // ms = messagebox, pc = pointcloud
         glView->ms_x = pointcloudApplication->pc_x;
         glView->ms_y = pointcloudApplication->pc_y;
+//        
+//        NSString *documentsDir = [NSString stringWithString:[NSHomeDirectory() stringbyappendingComponent:@"documents"]];
+//        
+//        NSArray *list = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:documentsDir error:nil];
+//        int fileCount = [list count];
+//        
+//        if (fileCount  == 0) {
+//            NSLog(@"\nNothing\n");
+//        } else {
+//            NSLog(@"\nIt has map file\n");
+//        }
+//        
+
         
-        if ((glView->ms_x != -1) || ( 0 <= glView->ms_x && glView->ms_x < pointcloudApplication->context_width) || (0 <= glView->ms_y && glView->ms_y < pointcloudApplication->context_height)|| pt_x){
+        if ((glView->ms_x != -1) || ( 0 <= glView->ms_x && glView->ms_x < pointcloudApplication->context_width) || (0 <= glView->ms_y && glView->ms_y < pointcloudApplication->context_height) ){ //|| pt_x){
             lbl.hidden = NO;
             [lbl setCenter:CGPointMake(glView->ms_x + (lbl.frame.size.width)/2, glView->ms_y - (lbl.frame.size.height)/2)];
             lbl.text = @"Hello, World!";
@@ -262,13 +317,19 @@ machineName()
             || pc_state == POINTCLOUD_IDLE) {
             lbl.hidden = YES;
         }
+        if (hiddenImageView) {
+            mapView.hidden = YES;
+        }
+        
         
 		return;
 	}
 }
 
+
 -(void)setupView:(GLView*)view {
 }
+
 
 - (void)initCapture {
 	[[UIApplication sharedApplication] setIdleTimerDisabled:YES];

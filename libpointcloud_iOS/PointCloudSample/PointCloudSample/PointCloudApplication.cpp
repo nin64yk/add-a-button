@@ -147,8 +147,10 @@ void PointCloudApplication::render_camera_frame() {
 	glEnable(GL_DEPTH_TEST);
 }
 
+
 void PointCloudApplication::clean_up() {
 }
+
 
 /*
  * Draws the required (for the free SDK) logo in the bottom-left corner of the visible camera feed

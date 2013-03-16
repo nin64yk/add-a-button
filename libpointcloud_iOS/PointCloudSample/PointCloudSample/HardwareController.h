@@ -21,18 +21,23 @@ class PointCloudApplication;
     UIView *messageView;
     UILabel *lbl;
     UILabel *startButton;
-    UILabel *loadButton;
-    UILabel *saveButton;
+    UILabel *load1Button;
+    UILabel *load2Button;
+    UILabel *save1Button;
+    UILabel *save2Button;
+    UIView *imageView;
+    UIImageView *mapView;
    
     //touch
     CGFloat pt_x;
+    
+    BOOL hiddenImageView;
     
     CVPixelBufferRef pixelBuffer;
     Float64 timestamp;
 	CMMotionManager *motionManager;
 	
 	PointCloudApplication* pointcloudApplication;
-  
     
 	BOOL restartingCamera;
 	BOOL accelerometer_available;
@@ -69,8 +74,16 @@ class PointCloudApplication;
 @property (nonatomic, retain) AVCaptureSession *captureSession;
 @property (nonatomic, retain) GLView *glView;
 
+@property (nonatomic, retain) UIView *imageView;
+@property (nonatomic, retain) UIImageView *mapView;
+
 @property (nonatomic, retain) UIView *messageView;
 @property (nonatomic, retain) UILabel *lbl;
+@property (nonatomic, retain) UILabel *startButton;
+@property (nonatomic, retain) UILabel *load1Button;
+@property (nonatomic, retain) UILabel *load2Button;
+@property (nonatomic, retain) UILabel *save1Button;
+@property (nonatomic, retain) UILabel *save2Button;
 
 @property (nonatomic) CVPixelBufferRef pixelBuffer;
 @property (nonatomic, retain) CMMotionManager *motionManager;
